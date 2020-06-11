@@ -1,3 +1,14 @@
 .banner {
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat; /* повторение*/
+    background-position: center center; /*позиция картинки*/
+    background-size: cover; /* заполонение картинки*/
+    min-height: 742px;
+    width: 100%;
+    position: relative;
+    z-index: 0; /* слой оси z */
+    display: flex;
+    align-items: center; /* ровняем содержимое по центру */
+
 
 }

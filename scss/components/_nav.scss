@@ -2,12 +2,13 @@
     margin-right: 50px;
     display: flex;
     align-items: center;
+    position: absolute;
 
 }
 
 .nav-list {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-item {
@@ -17,5 +18,6 @@
 .nav-link {
     color: $primaryColor;
     padding: 0 5px; 
-    font-size: 14px;
+    font-size: $titleText;
+    font-family: $navFont;
 }
