@@ -1,0 +1,17 @@
+.heading {
+    color: $mainTextColor;
+    font-size: 52px;
+    font-family: $mainFont;
+}
+
+.title {
+    color: $markerColor;
+    font-size: $headingText;
+    font-family: $mainFont;
+}
+.paragraph {
+    color: $primaryColor;
+    font-size: $sectionText;
+    font-family: $secondaryFont;
+    line-height: 1.5;
+}

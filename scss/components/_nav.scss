@@ -8,10 +8,6 @@
 .nav-list {
     display: flex;
     flex-direction: column;
-    @media (min-width: 900px) {
-        flex-direction: row;
-    }
-
 }
 
 .nav-item {
@@ -19,22 +15,7 @@
 }
 
 .nav-link {
-    /* сылке делаем ховер*/
     color: $primaryColor;
-    padding: 0 5px; /* расширяем кликабельность сылки*/
-    @extend %transition; /* расширяю класс тихим классом в (плейсхолдере)*/
+    padding: 0 5px; 
     font-size: 14px;
-    @media (min-width: 1120px) {
-        font-size: $sectionText;
-        padding: 0 10px; /* расширяем кликабельность сылки*/
-
-    }
-    .advertising-nav & {
-        color: $smallTextColor;
-        font-size: $smallHoverText;
-    }
-    .nav-item:hover & {
-        /* наследуем состояние радителя*/
-        color: $hoverColor;
-    }
 }
