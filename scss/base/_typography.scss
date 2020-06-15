@@ -28,10 +28,33 @@
     color: $markerColor;
     font-size: $headingText;
     font-family: $mainFont;
+    .recipe-card & {
+        padding-bottom: 49px;
+        position: relative;
+    }
+    .recipe-card &::before {
+        content: "";
+        background-image: url(/img/divider.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 247px;
+        height: 24px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
 }
+
 .paragraph {
     color: $primaryColor;
     font-size: $sectionText;
     font-family: $secondaryFont;
     line-height: 1.5;
+    .recipe-card & {
+        color: $mainTextColor;
+        margin-top: 32px;
+        margin-bottom: 52px;
+    }
 }
