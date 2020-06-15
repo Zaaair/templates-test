@@ -1,0 +1,20 @@
+.button {
+    min-width: 228px;
+    height: 57px;
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+    padding: 0 5px;
+    color: $primaryColor;
+    border: solid 2px #ffffff;
+    display: inline-block;
+    line-height: 57px;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    .button-grup & {
+        margin: 0 30px;
+    }
+    .button-grup &:hover {
+        background-color: rgba($color: #0c0c0c, $alpha: 0.5);
+        border: solid 2px rgba($color: #0c0c0c, $alpha: 0.5);
+    }
+}
