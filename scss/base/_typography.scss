@@ -45,6 +45,24 @@
         transform: translateX(-50%);
         position: absolute;
     }
+    .ingredients-content & {
+        padding-bottom: 40px;
+        color: $primaryColor;
+        position: relative;
+    }
+    .ingredients-content &::before {
+        content: "";
+        background-image: url(/img/divider-1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 247px;
+        height: 24px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
 }
 
 .paragraph {
@@ -56,5 +74,11 @@
         color: $mainTextColor;
         margin-top: 32px;
         margin-bottom: 52px;
+    }
+    .ingredients-content & {
+        padding-top: 15px;
+        padding-bottom: 76px;
+        position: relative;
+        text-align: center;
     }
 }

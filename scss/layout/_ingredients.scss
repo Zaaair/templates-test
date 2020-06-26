@@ -1,0 +1,33 @@
+.ingredients {
+    background-image: url(/img/section-background-1.png);
+    min-height: 758px;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 49px;
+    padding-top: 100px;
+
+}
+
+.ingredients-content {
+    max-width: 570px;
+    max-height: 557px;
+    padding: 83px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 0.1px #000000;
+    position: relative;
+    left: 50%;
+    &::before {
+        content: "";
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+
+    }
+}
