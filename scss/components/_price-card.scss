@@ -8,6 +8,14 @@
     margin: 30px 0;
 
 }
+.price-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
 .card-elements-price {
     position: relative;
     display: flex;
@@ -41,6 +49,7 @@
 
 }
 .title-underline {
+    padding-top: 70px;
     margin: 0 auto;
 }
 .title-card {
@@ -53,7 +62,26 @@
     color: $mainTextColor;
     font-size: $sectionText;
     font-family: $secondaryFont;
-    padding-top: 10px;
+    padding: 12px 0;
+    
 
 }
-
+.special {
+    position: relative;
+    border: solid 1px #c89f2d;
+    &::before {
+        content: "Special";
+        color: $primaryColor;
+        background-image: url(/img/bg-item.png);
+        right: -1px;
+        top: -22px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 69px;
+        height: 22px;
+        padding: 0 6px;
+    
+    }
+}
