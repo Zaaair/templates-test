@@ -1,0 +1,32 @@
+.login {
+    background-image: url(/img/pattern-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 708px;
+    padding-top: 100px;
+
+
+}
+.login-content {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.login-content-img {
+    width: 570px;
+    height: 507px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-content-info {
+    max-width: 430px;
+}
+.login-content-text {
+    text-align: center;;
+
+}
+.login-content-login {
+
+}

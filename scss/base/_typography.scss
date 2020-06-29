@@ -67,6 +67,23 @@
         padding-bottom: 40px;
         position: relative;
     }
+    .login-content-text &::before {
+        content: "";
+        background-image: url(/img/divider.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 247px;
+        height: 24px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+    .login-content-text & {
+        position: relative;
+        padding-bottom: 40px;
+    }
 }
 
 .paragraph {
@@ -84,5 +101,10 @@
         padding-bottom: 76px;
         position: relative;
         text-align: center;
+    }
+    .login-content-text & {
+        color: $mainTextColor;
+        display: inline-block;
+        margin: 10px 0;
     }
 }
