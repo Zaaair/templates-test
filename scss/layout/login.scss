@@ -28,5 +28,11 @@
 
 }
 .login-content-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+.login-content-submit {
+    margin-top: 33px;
 }
