@@ -84,6 +84,48 @@
         position: relative;
         padding-bottom: 40px;
     }
+    .footer-about & {
+        color: $primaryColor;
+        font-size: $titleText;
+        font-family: $mainFont;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    .footer-about &::before {
+        content: "";
+        background-image: url(/img/divider-1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 199px;
+        height: 19px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+ 
+    }
+    .footer-hours & {
+        color: $primaryColor;
+        font-size: $titleText;
+        font-family: $mainFont;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    .footer-hours &::before {
+        content: "";
+        background-image: url(/img/divider-1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 199px;
+        height: 19px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+
+    } 
 }
 
 .paragraph {
@@ -106,5 +148,8 @@
         color: $mainTextColor;
         display: inline-block;
         margin: 10px 0;
+    }
+    .footer-about & {
+        text-align: center;
     }
 }

@@ -20,8 +20,13 @@
     height: 36px;
     border: solid 1px #c89f2d;
     background-color: #c89f2d;
-    color: #ffffff;
+    color: #ffffff; 
     font-size: 16px;
     display: block;
     margin: 0 auto;
+}
+.entry-field:focus {
+    border-radius: 0;
+    border: solid 1px #c89f2d;
+    outline: none;  // есле не работает юордер при фокусе //
 }
